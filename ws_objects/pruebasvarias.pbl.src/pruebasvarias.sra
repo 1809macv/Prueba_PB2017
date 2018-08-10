@@ -75,8 +75,11 @@ li_rc = wsh.ConnectToNewObject( "WScript.Network" )
 IF li_rc = 0 THEN
 	MessageBox( "Domain", "Dominio: " + String( wsh.UserDomain) + " Computadora: " + String( wsh.ComputerName) + " usuario: " + String( wsh.UserName) )
 END IF
-wsh.DiconnectObject()
+wsh.DisconnectObject()
 DESTROY (wsh)
+
+
+OPEN(w_main_dock)
 
 
 end event

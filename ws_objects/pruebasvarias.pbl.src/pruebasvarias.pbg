@@ -4,4 +4,8 @@
 @end;
 @begin Objects 
  "pruebasvarias.sra" "pruebasvarias.pbl";
+ "m_main_menu.srm" "pruebasvarias.pbl";
+ "w_docking_window.srw" "pruebasvarias.pbl";
+ "w_main_dock.srw" "pruebasvarias.pbl";
+ "w_main_sheet.srw" "pruebasvarias.pbl";
 @end;
